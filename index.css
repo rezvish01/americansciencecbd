@@ -1,0 +1,795 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400');
+/* CSS Document */
+body {
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto;
+	padding:0;
+	background:#fff;
+	-webkit-font-smoothing:antialiased; 
+    -moz-font-smoothing:antialiased; 
+    font-smoothing:antialiased; 
+	font-family: 'Hind', sans-serif;
+}
+div, ul, h1, h2, h3, h4, h5, li, p, img, form, input, textarea {margin:0;padding:0;}
+table, tr, td {border:0;}
+a{outline: none; color:#333; text-decoration:none;}
+a:hover {outline: none; color:#000; text-decoration:none;}
+img {border:none;}
+li {list-style:none;}
+.clearall{
+	clear:both;
+	font-size:1px;
+	line-height:1px;
+	height:1px;
+}
+/*-----------------------
+MAIN CSS START
+------------------------*/
+.container{
+	width:1004px;
+	margin:0 auto;
+	padding:0;
+}
+.dsplay{width:100%;display:table;}
+.position{position:relative;}
+.bdfont{font-size:18px;line-height:24px;color:#2d2d2d;}
+.topbar{
+	height:29px;
+	background:#ff0000;
+}
+.topbartxt{
+	font-size:18px;
+	line-height:27px;
+	padding:2px 0 0 0;
+	color:#fff;
+	text-align:center;	
+}
+.topbartxt span{
+	font-weight:700;
+	color:#fff600;
+}
+/*------------------------------*/
+.s2hding, .s3hding, .s4hding, .s5hding, .s6hding{
+	font-weight:600;
+	font-size:33px;
+	line-height:44px;
+	color:#395761;
+	text-align:left;
+	letter-spacing:-1px;
+	padding:56px 0 0 0;
+}
+.s3hding{padding:64px 0 0 308px;}
+.s4hding{padding:62px 0 0 0;}
+.s5hding, .s6hding{
+	padding:66px 0 0 0;
+	text-align:center;}
+.s6hding{
+	padding: 79px 0 0 0;
+    font-size: 34px;}	
+
+.s2hding span, .s3hding span, .s4hding span, .s5hding span, .s6hding span{
+	background: -webkit-linear-gradient(#07d769, #036d3f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	font-weight:700;
+	font-size:46px;
+	text-transform:uppercase;
+	letter-spacing:-2px;	
+}
+.s6hding span{
+	font-size:51px;}
+.s2hdimg, .s3hdimg, .s5hdimg{margin:1px 0 0 0;display:block;}
+.s3hdimg{margin:1px 0 0 308px;}
+.s5hdimg{
+	margin:1px auto 0 auto;}
+/*-----------------sec1------------------*/	
+.section1{
+	background:url(https://americansciencecbd.com/promo/desktop/images/section1.jpg) center top no-repeat;
+	height:720px;
+}
+.s1lft, .s1rgt{
+	float:left;
+	display:inline-block;
+	width:690px;
+}
+.s1rgt{width:307px;}
+.logo{
+	margin:9px 0 0 205px;
+	display:block;
+}
+.s1seal{
+	position:absolute;
+	left:444px;
+	top:12px;
+}
+.s1hd{
+	margin:31px 0 0 185px;
+	display:block;
+}
+.s1txt{
+	font-size:20px;
+	line-height:24px;
+	color:#2c2c2c;
+	text-align:left;
+	padding:4px 0 0 236px;
+	letter-spacing:-1px;
+}
+ul.s1list{padding:19px 0 0 240px;}
+ul.s1list li{
+	background:url(https://americansciencecbd.com/promo/desktop/images/s1bullet.png) left top no-repeat;
+	padding:0 0 0 31px;
+	font-weight:600;
+	font-size:25px;
+	line-height:25px;
+	color:#263238;
+	text-align:left;
+	margin:17px 0 0 0;
+	letter-spacing:-1px;
+}
+ul.s1list li span{
+	color:#01a16a;
+	text-transform:uppercase;
+}
+.chkarrow{
+	margin:47px 0 0 58px;
+	display:block;
+}
+.s1bottle{
+	position:absolute;
+	left:-102px;
+	top:247px;
+}
+.s1asseen{
+	margin:17px 0 0 234px;
+	display:block;
+}
+/*------------right side--------------*/
+.exoffer-box{height:88px;}
+.exof-txt{
+	background:url(https://americansciencecbd.com/promo/desktop/images/flag.png) 8px top no-repeat;
+	font-size:17px;
+	line-height:17px;
+	color:#242424;
+	text-align:left;
+	padding:0 0 0 62px;
+	margin:30px 0 0 0;
+}
+.frm{
+	padding-bottom: 15px;
+	/* width:100%; */
+	width: 94%;
+	margin: 0 3%;
+	background:#069852;
+	border-radius:5px 5px 0 0;
+
+}
+.sldrtxt{
+	font-size:14px;
+	line-height:33px;
+	color:#fff;
+	text-align:center;
+	height:33px;
+	padding:3px 0 0 0;
+}
+.sldrtxt img{margin:0 3px -1px 0;}
+.frmhdr{
+	height:78px;
+	width:100%;
+	background:url(https://americansciencecbd.com/promo/desktop/images/frmhdr.jpg) center top no-repeat;
+	margin:0 0 14px 0;
+}
+.frmhd-txt{
+	font-size:22px;
+	line-height:28px;
+	text-shadow:1px 1px #786c40;
+	color:#fff;
+	text-align:center;
+	text-transform:uppercase;
+	letter-spacing:-1px;
+	padding:12px 0 0 0;
+}
+.frmhd-txt span{
+	font-size:26px;
+	font-weight:700;
+	text-shadow:2px 1px #786c40;
+}	
+.frmElemts{
+    float: left;
+    margin: 7px 0 0 0;
+	width:100%;
+}	
+.frmElemts input, .frmElemts label, .frmElemts select  {
+	float:left;
+	display:inline-block;	
+	height:27px;
+}
+
+.frmElemts label{
+  line-height: 32px;
+  width:104px;
+  font-size: 14px;
+  color: #fff;
+  text-align: right;
+  margin-right: 8px;
+  font-weight: bold;
+}	
+	
+
+
+
+
+.frmElemts label{
+	display: none;
+  }
+
+
+
+ .frmElemts select {
+	
+    /*font-family: 'Lato', 'Hind', Arial, Helvetica, sans-serif;
+    font-family: 'Hind', Arial, Helvetica, sans-serif; */
+	font-family: 'Lato', sans-serif;
+    background: none;
+    width: 248px;
+    height: 35px;
+    margin: 0 auto;
+    font-size: 14px;
+    font-style: normal;
+    /* color: #fff; */
+    background-color: #6ebe3b;
+    outline: none;
+    padding: 0 15px;
+    border: 1px solid #009a5a;
+  	line-height: 35px;
+	background-color: #fff;
+	border-radius:20px;
+}
+
+.frmElemts input {
+	
+     /*font-family: 'Lato', 'Hind', Arial, Helvetica, sans-serif;
+    font-family: 'Hind', Arial, Helvetica, sans-serif; */
+	font-family: 'Lato', sans-serif;
+    background: none;
+    width: 218px;
+    height: 35px;
+    margin: 0 auto;
+    font-size: 14px;
+    font-style: normal;
+    /* color: #fff; */
+    background-color: #6ebe3b;
+    outline: none;
+    padding: 0 15px;
+    border: 1px solid #009a5a;
+  	line-height: 35px;
+	background-color: #fff;
+	float:none !important;
+	display:block;
+	border-radius:20px;
+}
+
+
+
+
+.frmElemts select option {
+	color: #000;
+	margin: 0 20px;
+}
+.frmElemts input[type=text]::-webkit-input-placeholder, .frmElemts input[type=tel]::-webkit-input-placeholder {
+	color: #a9a9a9;
+}
+.frmElemts input[type=text]::-moz-placeholder, .frmElemts input[type=tel]::-moz-placeholder{
+	color: #a9a9a9;
+}
+.frmElemts input[type=text]:-ms-input-placeholder, .frmElemts input[type=tel]:-ms-input-placeholder {
+	color: #a9a9a9;
+}
+
+.frmElemts input[type=text]:-moz-placeholder, .frmElemts input[type=tel]:-moz-placeholder {
+	color: #a9a9a9;
+}
+.frmElemts select {
+	color: #a9a9a9;
+	width: 248px;    
+	padding: 0 10px;
+	margin: 0 20px;
+	appearance:none;
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+	background: url(https://americansciencecbd.com/promo/desktop/images/select-arrow-white.png) 220px center no-repeat,linear-gradient( rgba(255, 255, 255, 1), rgba(255, 255, 255, 1)) !important;
+	
+}
+
+.submit{
+	margin: 15px auto 0 auto;
+	display:block;
+    background: url(https://americansciencecbd.com/promo/desktop/images/submit.png) left top no-repeat;
+    height: 57px;
+    width: 240px;
+    cursor: pointer;
+    border: none;
+	outline: none;
+	background-size: cover;
+}
+.s1logos{
+	width: 94%;
+    margin: 17px 3% 0 3%;
+}
+/*-----------------sec2------------------*/	
+.section2{
+	background:url(https://americansciencecbd.com/promo/desktop/images/section2.jpg) center top no-repeat;
+	height:799px;
+}
+.sec2txt{	
+	text-align:left;
+	padding:12px 0 0 0;
+	width:610px;
+}
+.s2subhd1{
+	font-weight:700;
+	font-size:36px;
+	line-height:30px;
+	color:#058a4e;
+	text-align:left;
+	padding:33px 0 0 0;
+	letter-spacing:-1px;
+}
+.s2subhd2{
+	height:35px;
+	width:508px;
+	background:#395761;
+	border-radius:5px;
+	font-weight:500;
+	font-size:26px;
+	line-height:33px;
+	color:#fff;
+	text-align:left;
+	padding:2px 0 0 14px;
+	margin:8px 0 0 0;
+	box-sizing:border-box;
+}
+ul.s2list{
+	padding:25px 0 0 0;
+}
+ul.s2list li{
+	float:left;
+	display:inline-block;
+	width:175px;
+	box-sizing:border-box;
+}
+ul.s2list li:nth-child(2){width:165px;}
+ul.s2list li:nth-child(3){width:140px;}
+ul.s2list li:nth-child(4){width:140px;}
+.s2limg{margin:0 0 0 0;display:block;}
+.s2ltxt{
+	font-weight:700;
+	font-size:22px;
+	line-height:22px;
+	color:#395761;
+	text-align:left;
+	text-transform:uppercase;
+	padding:15px 0 0 0;
+}
+.s2ltxt span{color:#069852;}
+.s5limg2{margin:12px 0 0 0px;display:block;}
+
+
+.s2txt3-box{
+	position:absolute;
+	left:465px;
+	top:528px;
+	width:226px;
+}
+.s2txt3-box img{margin:0 auto;display:block;}
+.s2txt3-box p{
+	font-weight:700;
+	font-size:18px;
+	line-height:18px;
+	color:#2c2c2c;
+	text-align:center;
+	text-transform:uppercase;
+	padding:15px 0 0 0;
+	letter-spacing:-1px;
+}
+.s2txt3-box p span{color:#ff0000;}
+.s2bottle{
+	position:absolute;
+	left:550px;
+	top:217px;
+}
+/*-----------------strip------------------*/	
+.strip{
+	height:100px;
+	background:url(https://americansciencecbd.com/promo/desktop/images/strip.jpg) center top no-repeat;
+}
+.striptxt1{
+	font-weight:600;
+	font-size:35px;
+	line-height:35px;
+	color:#fff;
+	text-align:left;
+	padding:22px 0 0 0;
+	letter-spacing:-1px;
+}
+.striptxt1 span{color:#ffdb34;}
+.striptxt2{
+	font-size:26px;
+	line-height:26px;
+	color:#fff;
+	text-align:left;
+}
+.stripbtn{
+	position:absolute;
+	right:0;
+	top:17px;
+}
+/*-----------------sec3------------------*/	
+.section3{
+	background:url(https://americansciencecbd.com/promo/desktop/images/section3.jpg) center top no-repeat;
+	height:730px;
+}
+.sec3txt{
+	padding:10px 0 0 308px;
+	text-align:left;
+}
+ul.s3list{padding:0 0 0 308px;}
+ul.s3list li{
+	margin-top:18px;
+	padding:0 0 0 160px;
+	position:relative;
+	min-height:87px;
+}
+ul.s3list li img{
+	position:absolute;
+	left:0;
+	top:0;
+}
+.s3lhding{
+	font-weight:700;
+	font-size:26px;
+	line-height:26px;
+	color:#28424b;
+	text-align:left;
+	text-transform:uppercase;
+}
+.s3lhding span{color:#009a5a;}
+.s3ltxt{text-align:left;}
+
+/*-----------------sec4------------------*/	
+.section4{
+	height:751px;
+}
+
+ul.s4-list1{
+	margin:20px 0 0 7px;
+	padding:0 0 0 0;}	
+ul.s4-list1 li{
+	background: url(https://americansciencecbd.com/promo/desktop/images/s4-icon1.jpg) left top no-repeat;
+    display: inline-block;
+    float: left;
+    width: 99px;
+    border-right: 1px solid #cfcfcf;
+    font-size: 30px;
+    line-height: 60px;
+    text-align: left;
+    font-weight: 700;
+    color: #263238;
+    margin: 0 0 0 0;
+    padding: 0 0 0 49px;
+    text-transform: uppercase;}	
+ul.s4-list1 li:nth-child(2){
+	background: url(https://americansciencecbd.com/promo/desktop/images/s4-icon2.jpg) left 0px no-repeat;
+    margin: -4px 0 0 20px;
+    padding: 4px 0 0 72px;
+    width: 133px;}	
+ul.s4-list1 li:nth-child(3){
+	background: url(https://americansciencecbd.com/promo/desktop/images/s4-icon3.jpg) left 8px no-repeat;
+    margin: -2px 0 0 28px;
+    border-right: none;
+    padding: 2px 0 0 53px;}
+.s4-txt1{
+	width:588px;
+	margin:0 0 0 0;}	
+
+ul.s4-list2{
+	margin:30px 0 0 -3px;
+	padding:0 0 0 0;}	
+ul.s4-list2 li{
+	background: url(https://americansciencecbd.com/promo/desktop/images/s4-icon4.jpg) left top no-repeat;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+    color: #2d2d2d;
+    margin: 0 0 0 0;
+    padding: 0 0 0 135px;
+    width: 518px;}	
+ul.s4-list2 li span{
+	font-weight: 700;
+    text-transform: uppercase;
+    color: #009a5a;
+    font-size: 25px;
+    line-height: 36px;}	
+	
+ul.s4-list2 li:nth-child(2){background:url(https://americansciencecbd.com/promo/desktop/images/s4-icon5.jpg) left top no-repeat; margin:22px 0 0 0;}
+ul.s4-list2 li:nth-child(3){background:url(https://americansciencecbd.com/promo/desktop/images/s4-icon6.jpg) left top no-repeat; margin:21px 0 0 0;}
+.s4-img-bg{
+	background: url(https://americansciencecbd.com/promo/desktop/images/s4-bg1.png) center top no-repeat;
+    height: 471px;
+    width: 386px;
+    position: absolute;
+    top: 18px;
+    left: 635px;}
+.s4-img-bg-txt1{
+	text-align: center;
+	font-weight:700;
+	font-size:40px;
+	color:#eccf30;
+	line-height:30px;
+	margin:0 0 0 0;
+	padding:128px 0 0 0;}	
+.s4-img-bg-txt1 span{
+	font-size:30px;
+	text-transform:uppercase;
+	color:#fff;}	
+.s4-img-bg-txt2{
+	font-size:18px;
+	line-height:21px;
+	text-align: center;
+	margin:0 0 0 0;
+	padding:9px 30px 0 30px;
+	color:#fff;
+}	
+
+.s4-bottle{
+	position: absolute;
+  top: 246px;
+  right: -14px;
+}
+
+/*-----------------sec5------------------*/	
+.section5{
+	height:798px;
+}
+.s5-txt1{
+	text-align: center;
+    margin: 0 0 0 0;
+    padding: 15px 140px 0 140px;
+}
+.s5-line{
+	display:block;
+	margin:29px auto 0 auto;}
+.s5left, .s5right{
+	display: inline-block;
+    width: 517px;
+    float: left;
+    margin: 3px 0 0 -9px;}
+.s5right{
+	width:484px;
+	margin:0 0 0 7px;}	
+.vedio{
+	width:490px;
+	height:277px;
+	margin-top:20px;
+	position:relative;
+	border:4px solid #fff;
+	-webkit-box-shadow: 0 0 4px 3px #E8E8E8;
+	box-shadow: 0 0 4px 3px #E8E8E8;
+	}	
+
+.s5-txt2 {
+    text-align: left;
+    font-style: italic;
+    margin: 0 auto;
+    padding: 13px 0 0 16px;
+    line-height: 22px;
+}
+
+.s5-txt3, .s5-txt4 {
+	display:inline-block;
+	float:left;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #13a628;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding: 20px 0 0 10px;
+}
+.s5-txt4 {
+	font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    color: #7a7979;
+    text-transform: none;
+    font-style: italic;
+    margin: 0 auto;
+    padding: 19px 0 0 61px;
+}
+.s5-txt5{
+	    font-weight: 600;
+    font-size: 30px;
+    line-height: 28px;
+    text-align: center;
+    color: #395761;
+    margin: 20px auto 0 auto;
+    padding: 0 0 0 0;}
+.s5-txt5 span{
+	font-weight:700;
+	text-transform:uppercase;
+	color:#07a856;}	
+.s5-logos{
+	display:block;
+	margin:29px auto 0 auto;}	
+.cnn{
+	margin:6px 0 -3px 0;}
+/*-----------------sec6------------------*/	
+.section6{
+	height:887px;
+}
+.t-box1, .t-box2 {
+	position:relative;
+	background:url(https://americansciencecbd.com/promo/desktop/images/t-box.png) center top no-repeat;
+	width:506px;
+	height:532px;
+	display:inline-block;
+	float:left;
+	margin:30px 0 0 -8px;}
+.t-box2{
+	margin:30px 0 0 0px;}
+
+.t-txt1{
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 26px;
+    text-align: center;
+    color: #009b5b;
+    font-style: italic;
+    margin: 0 auto 0 auto;
+    padding: 72px 55px 0 53px;}		
+.t-txt2{
+	font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #2d2d2d;
+    margin: 0 auto;
+    padding: 25px 42px 0 28px;}	
+.t-img1{
+	position: absolute;
+    top: 342px;
+    left: 42px;
+}
+.stars{
+	margin:78px 0 0 235px;}	
+.t-txt3{
+	font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    color: #979797;
+    text-transform: uppercase;
+    margin: 0 0 0 235px;
+    padding: 18px 0 0 0;}
+.t-txt3 span{
+	font-weight:600;
+	color:#07a856;
+	font-size:20px;}
+
+/*-----------------sec1------------------*/	
+.section7{
+	background:url(https://americansciencecbd.com/promo/desktop/images/section7.jpg) center top no-repeat;
+	height:685px;
+}
+.s7logo{
+	margin: 0px 0 0 102px;
+    display: block;
+    padding: 22px 0 0 0;
+}
+.s7seal{
+	position: absolute;
+    left: 322px;
+    top: 26px;
+}
+.s7hd{
+	    margin: 33px 0 0 94px;
+    display: block;
+}
+.s7txt{
+	    font-size: 20px;
+    line-height: 24px;
+    color: #2c2c2c;
+    text-align: left;
+    padding: 4px 0 0 177px;
+    letter-spacing: -1px;
+	width: 432px;
+}
+ul.s7list{padding:19px 0 0 151px;}
+ul.s7list li{
+	background:url(https://americansciencecbd.com/promo/desktop/images/s1bullet.png) left top no-repeat;
+	padding:0 0 0 31px;
+	font-weight:600;
+	font-size:25px;
+	line-height:25px;
+	color:#263238;
+	text-align:left;
+	margin:17px 0 0 0;
+	letter-spacing:-1px;
+}
+ul.s7list li span{
+	color:#01a16a;
+	text-transform:uppercase;
+}
+.s7bottle{
+    position: absolute;
+    left: -150px;
+    top: 189px;
+}
+.s7btn{
+	margin:29px 0 0 156px;}
+			
+.s7-photos{
+	position: absolute;
+    top: 378px;
+    right: 68px;}
+/*==============footer=====================*/
+.footer{
+	border-top:1px solid #999;
+	margin:0 0 0 0;
+	padding:0 0 40px 0;}
+.ftr-txt{
+	font-size:16px;
+	line-height:24px;
+	text-align:center;
+	color:#000101;
+	margin:0 0 0 0;
+	padding:40px 10px 0 10px;
+}
+.ftr-txt a, .ftr-txt a:hover{
+	color:#000101;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+/*--------------------heartbeat--------------------*/	
+.pulse{
+    animation-name: pulse;
+    -webkit-animation-name: pulse;   
+
+    animation-duration: 1.5s;   
+    -webkit-animation-duration: 1.5s;
+
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+@keyframes pulse {
+    0% {
+        transform: scale(0.9);
+        opacity: 0.9;       
+    }
+    50% {
+        transform: scale(1);
+        opacity: 1;   
+    }   
+    100% {
+        transform: scale(0.9);
+        opacity: 0.9;   
+    }           
+}
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-transform: scale(0.95);
+        opacity: 0.7;       
+    }
+    50% {
+        -webkit-transform: scale(1);
+        opacity: 1;   
+    }   
+    100% {
+        -webkit-transform: scale(0.95);
+        opacity: 0.7;   
+    }           
+}														
